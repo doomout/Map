@@ -25,6 +25,9 @@
                                     <segment title="영등포역"/>
                                     <segment title="타임스퀘어"/>
                                 </segments>
+                                <connections>
+                                    <action selector="sgChangeLocation:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ivt-bB-Ra7"/>
+                                </connections>
                             </segmentedControl>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jkt-tM-6vy">
                                 <rect key="frame" x="20" y="87" width="374" height="695"/>
@@ -49,6 +52,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="lblLocationInfo1" destination="11u-hw-1f5" id="PJ1-Vw-DUr"/>
+                        <outlet property="lblLocationInfo2" destination="iGE-f6-hZa" id="EFZ-6p-kH6"/>
+                        <outlet property="myMap" destination="Jkt-tM-6vy" id="I67-xl-7fQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
