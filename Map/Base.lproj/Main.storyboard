@@ -23,7 +23,7 @@
                                 <segments>
                                     <segment title="현재위치"/>
                                     <segment title="영등포역"/>
-                                    <segment title="타임스퀘어"/>
+                                    <segment title="남산타워"/>
                                 </segments>
                                 <connections>
                                     <action selector="sgChangeLocation:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ivt-bB-Ra7"/>
@@ -35,14 +35,14 @@
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11u-hw-1f5">
-                                <rect key="frame" x="20" y="798" width="42" height="21"/>
+                                <rect key="frame" x="20" y="798" width="374" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGE-f6-hZa">
-                                <rect key="frame" x="20" y="827" width="42" height="21"/>
+                                <rect key="frame" x="20" y="827" width="374" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
